@@ -1,0 +1,29 @@
+{
+  "name": "angular-antacid",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vokalinteractive/angular-antacid",
+  "authors": [
+    "Jarrett Widman <jarrett.widman@vokalinteractive.com>"
+  ],
+  "description": "Antacid is an Angular provider that collects and logs information about $digest performance.",
+  "main": "source/antacid.js",
+  "keywords": [
+    "angular",
+    "antacid",
+    "digest",
+    "$digest",
+    "performance",
+    "logging",
+    "google",
+    "analytics",
+    "console"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
