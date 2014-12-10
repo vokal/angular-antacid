@@ -24,9 +24,9 @@ angular.module( "myModule", [ "antacid" ] )
 
 ```
 
-Current options and their defaults, configure as shown above
+Below are current options and their defaults, which can be configured as shown above:
 
-### trackWhen
+### Track When
 
 `when.long = { min: 75, max: 60000 };`
 
@@ -45,7 +45,7 @@ when.events = [
 
 These events will be globally recorded. "touchstart" and "mousedown" will be combined into an even called "touchstart/mousedown" to simplify groupings in reporting.
 
-### trackTo
+### Track To
 
 `to.googleAnalytics = true;`
 
@@ -55,7 +55,7 @@ When true, sends user timings to Google Analytics. You need to install and confi
 
 Logs antacid to console
 
-### trackWith
+### Track With
 `with.dataAttributeValues = false;`
 
 Whether to include data-* attribute values in the tracking data. The default is false because these often contain data that varies by user which cause the events to not group well in Google Analytics.
